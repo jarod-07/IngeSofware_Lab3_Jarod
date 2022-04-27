@@ -1,0 +1,51 @@
+﻿@model Laboratorio3.Models.SongModel;
+
+@{
+    ViewData["Title"] = "Songs";
+}
+
+<h1>@ViewBag.MainTitle</h1>
+<br /><br />
+
+<table>
+    <tr>
+        <td width="250">Nombre:</td>
+        <td width="300" style="border-width: 1px;border: solid; border-color: #F4F4F4;">@Model.Name</td>
+    </tr>
+</table>
+
+<br /><br />
+
+<table>
+    <tr>
+        <td width="250">Artista:</td>
+        <td width="300" style="border-width: 1px;border: solid; border-color: #F4F4F4;">@Model.Artist</td>
+    </tr>
+</table>
+
+<br /><br />
+
+<table>
+    <tr>
+        <td width="250">Album:</td>
+        <td width="300" style="border-width: 1px;border: solid; border-color: #F4F4F4;">@Model.Album</td>
+    </tr>
+</table>
+
+<br /><br />
+
+<table>
+    <tr>
+        <td width="250">Genero:</td>
+        <td width="300" style="border-width: 1px;border: solid; border-color: #F4F4F4;">@Model.Genre</td>
+    </tr>
+</table>
+
+<br /><br />
+
+<table>
+    <tr>
+        <td width="250">Fecha de lanzamiento:</td>
+        <td width="300" style="border-width: 1px;border: solid; border-color: #F4F4F4;">@Model.ReleasedDate</td>
+    </tr>
+</table>
